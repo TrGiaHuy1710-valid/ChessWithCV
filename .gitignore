@@ -1,0 +1,11 @@
+# Môi trường và biến bí mật
+.env
+*.log
+
+# Thư mục thư viện
+node_modules/
+dist/
+
+# File hệ thống
+.DS_Store
+Thumbs.db
