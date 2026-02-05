@@ -74,3 +74,12 @@ class ChessVisualizer:
 
         cv2.imshow("Chess Board", img)
         cv2.waitKey(1)
+
+if __name__ == '__main__':
+    visualizer = ChessVisualizer(piece_dir="assets/pieces")
+    board = chess.Board()
+
+    visualizer.show(board)
+    print("Press any key to quit!")
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
